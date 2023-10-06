@@ -146,11 +146,21 @@ body {
 }
 
 .down {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
 }
 
+
 .down a {
-    text-align: center;
     position: relative;
-    left: 39%;
+    top: -1px;
 }
